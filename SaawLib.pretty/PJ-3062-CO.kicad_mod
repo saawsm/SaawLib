@@ -186,20 +186,20 @@
 		(uuid "2fee26d1-249c-4c0a-8fd5-de589c408add")
 	)
 	(pad "R" thru_hole circle
-		(at 2.65 -8.048)
-		(size 2.1 2.1)
-		(drill 1.3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "076eb927-3d46-4a02-9606-353f0ad48221")
-	)
-	(pad "RN" thru_hole circle
 		(at -4.95 -8.048)
 		(size 2.1 2.1)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cb3cd171-d468-491b-9c95-f8629d0bdbae")
+	)
+	(pad "RN" thru_hole circle
+		(at -2.65 -8.048)
+		(size 2.1 2.1)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f03f55de-d373-48ec-9dbe-d0d0adec259a")
 	)
 	(pad "S" thru_hole circle
 		(at 0 -3.348)
@@ -218,12 +218,12 @@
 		(uuid "f165fe75-c037-46ac-b999-db59b79b2d9c")
 	)
 	(pad "TN" thru_hole circle
-		(at -2.65 -8.048)
+		(at 2.65 -8.048)
 		(size 2.1 2.1)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f03f55de-d373-48ec-9dbe-d0d0adec259a")
+		(uuid "076eb927-3d46-4a02-9606-353f0ad48221")
 	)
 	(model "${KICAD_USER_LIBRARIES}/SaawLib/3dmodels/STX-3100-5N_rA5.STEP"
 		(offset
